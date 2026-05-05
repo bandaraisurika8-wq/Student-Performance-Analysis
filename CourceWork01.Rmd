@@ -1,0 +1,135 @@
+---
+title: "CW01"
+author: "028, 048, 29"
+date: "2025-12-17"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+data = read.csv(file.choose(),header = TRUE)
+View(data)
+str(data)
+```
+
+```{r}
+attach(data)
+```
+
+Checking missing values in entire code
+
+```{r}
+sum(is.na(data))
+```
+
+Checking missing values in each column
+
+```{r}
+colSums(is.na(data))
+```
+
+Convert numeric into factors
+
+```{r}
+data$gender <-as.factor(data$gender)
+data$school_type <- as.factor(data$school_type)
+data$internet_access = as.factor(data$internet_access)
+data$extra_activities <- as.factor(data$extra_activities)
+data$study_method <- as.factor(data$study_method)
+data$final_grade <- as.factor(data$final_grade)
+
+
+```
+
+Checking the change
+
+```{r}
+str(data)
+```
+
+DATA VISUALIZATION 
+
+
+Bar Charts
+
+```{r}
+plot(data$gender,col = rainbow(5),main = "Bar Chart for Gener")
+abline(h=0)
+```
+
+```{r}
+plot(data$school_type,col = rainbow(5),main = "Bar Chart for School Type")
+abline(h=0)
+```
+
+Pie Charts
+
+```{r}
+gender.freq <- table(data$gender) 
+pie(gender.freq,col = rainbow(5),main = "Pie Charts for Gender")
+```
+
+```{r}
+school_type.freq<-table(data$school_type)
+pie(school_type.freq,col = rainbow(5),main = "Pie Charts for School Type")
+```
+
+
+Histrograms
+```{r}
+hist(data$age,col = "orange",main = "Histrograms of Age", xlab = "Age")
+abline(h=0)
+```
+
+Bar Plot
+```{r}
+barplot(table(data$gender, data$school_type),
+        main = "Bar Plot Of Gender and School Type",
+        xlab = "Gender",
+        ylab = "Frequency",
+        col = "orange")
+```
+
+ Scatter Plot
+
+```{r}
+plot(data$student_id, data$age,
+     main = "Scatter Plot Of Stuedent_ID vs Age",
+     xlab = "Stu_ID",
+     ylab = "Age",
+     pch = 19,
+     col= "red")
+```
+
+BoxPlot
+
+```{r}
+ boxplot(data$age,
+        main = "Boxplot of Age",
+        ylab = "Age",
+        col = "lightgreen")
+```
+
+
+
+```{r}
+boxplot(age ~ gender,
+        data = data,
+        main = "Boxplot of age by Gender",
+        xlab = "Gender",
+        ylab = "Age",
+        col = c("pink", "lightblue"))
+```
+
+
+
+summary of all variables
+```{r}
+summary(data)
+```
+
+Conclusion: This exploratory data analysis involved the use of descriptive statistics. The data was cleaned, and data types were allocated to each variable. The data summary tools such as histograms, bar plots, box plots, and scatter plots were employed. This data analysis has been useful in gaining insights into the nature of the students as well as their performance. This data analysis forms a good foundation for undertaking more data analysis.

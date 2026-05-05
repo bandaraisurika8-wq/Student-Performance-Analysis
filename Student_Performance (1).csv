@@ -1,0 +1,200 @@
+student_id,age,gender,school_type,parent_education,study_hours,attendance_percentage,internet_access,travel_time,extra_activities,study_method,math_score,science_score,english_score,overall_score,final_grade
+1,14,male,public,post graduate,3.1,84.3,yes,<15 min,yes,notes,42.7,55.4,57,53.1,e
+2,18,female,public,graduate,3.7,87.8,yes,>60 min,no,textbook,57.6,68.8,64.8,61.3,d
+3,17,female,private,post graduate,7.9,65.5,no,<15 min,no,notes,84.8,95,79.2,89.6,b
+4,16,other,public,high school,1.1,58.1,no,15-30 min,no,notes,44.4,27.5,54.7,41.6,e
+5,16,female,public,high school,1.3,61,yes,30-60 min,yes,group study,8.9,32.7,30,25.4,f
+6,19,male,public,no formal,3.8,69.6,yes,>60 min,yes,coaching,51.5,78.3,63.9,63.5,d
+7,14,female,private,post graduate,1.8,81.6,yes,30-60 min,no,textbook,41.9,29.4,39.2,39.1,f
+8,18,female,private,post graduate,5.6,59.4,yes,>60 min,yes,group study,56.7,60.1,53.4,69.6,d
+9,15,other,private,high school,3.2,89.6,yes,15-30 min,yes,mixed,54.1,59.5,38.3,55.2,d
+10,14,female,public,diploma,6.8,62.4,yes,>60 min,no,mixed,71.9,70.4,81.3,69.6,d
+11,17,female,private,graduate,6.1,90.5,yes,15-30 min,no,notes,75.4,82.7,70.8,77.5,c
+12,19,other,public,post graduate,4,96.2,yes,<15 min,yes,notes,62,54.7,58,65,d
+13,18,female,private,high school,6.8,58.2,yes,>60 min,no,mixed,75.1,80.5,56.2,73.6,c
+14,18,other,public,diploma,1.3,95.9,yes,30-60 min,yes,textbook,33.6,26.8,50,42.5,e
+15,18,other,public,high school,4.9,85.3,yes,<15 min,no,coaching,88.1,66.1,70.3,69.3,d
+16,18,other,private,post graduate,5,94.4,yes,15-30 min,yes,coaching,66.4,76.9,76.1,73.7,c
+17,17,other,private,phd,2.3,67.3,yes,<15 min,yes,mixed,63.1,46.3,57.1,53.5,e
+18,14,female,public,post graduate,0.9,93.2,yes,15-30 min,yes,online videos,57.2,50.5,54.1,49.8,e
+19,19,male,public,post graduate,4.5,73.8,yes,30-60 min,yes,online videos,38.7,69.9,58.3,59.2,d
+20,16,female,public,post graduate,4.4,59.5,yes,<15 min,no,mixed,49.9,53.9,60.4,61.9,d
+21,17,male,private,phd,5.4,99.8,yes,>60 min,no,textbook,84.9,77.6,77.6,81.3,c
+22,16,female,public,diploma,2.1,97.4,yes,>60 min,yes,group study,76.7,31.9,39.3,55,d
+23,15,other,public,high school,1.8,56.2,no,30-60 min,yes,online videos,41.3,35.2,19.9,33.5,f
+24,19,female,public,phd,7.8,72.8,yes,15-30 min,yes,notes,100,100,100,94.6,b
+25,18,male,public,no formal,1.4,99.3,yes,<15 min,no,mixed,38.9,31.2,57.3,41.4,e
+26,17,male,private,diploma,8,77.4,yes,>60 min,no,coaching,100,87.7,69.3,92.5,b
+27,16,other,public,post graduate,5.9,74.9,yes,15-30 min,no,textbook,94.6,92.8,86.9,82.5,c
+28,18,other,private,post graduate,5.2,59.8,yes,<15 min,yes,textbook,42.9,89.9,63.4,75.4,c
+29,17,female,private,post graduate,3,71,yes,15-30 min,no,mixed,40.5,44.5,68.1,45.1,e
+30,16,other,public,diploma,7,74.9,yes,>60 min,yes,textbook,76.1,73.5,71.7,82.6,c
+31,16,other,private,phd,7.3,85.7,yes,30-60 min,yes,group study,79.6,86,95.4,90.4,b
+32,15,female,private,high school,5.9,72.5,yes,>60 min,yes,textbook,79.3,82.5,77.4,77.1,c
+33,14,male,private,no formal,5.8,81.7,yes,30-60 min,yes,notes,94.5,72.1,84.8,78.8,c
+34,17,other,public,graduate,4.2,55.1,no,15-30 min,no,coaching,60.5,57.4,72.9,62.2,d
+35,19,female,public,high school,1.1,88.2,yes,30-60 min,no,coaching,39.8,39.6,36.5,46.9,e
+36,14,other,private,diploma,8,50.2,yes,30-60 min,no,online videos,93.1,99.8,100,90.4,b
+37,19,other,public,diploma,0.6,82.1,yes,>60 min,no,coaching,45.9,43.5,35,42,e
+38,18,female,public,high school,4.2,91.3,yes,15-30 min,no,notes,82.4,73.5,61.7,79,c
+39,15,female,private,phd,3.3,88.3,yes,15-30 min,yes,notes,53.5,67.4,61.7,66.5,d
+40,17,male,public,diploma,6.3,57.4,yes,<15 min,yes,notes,78.1,70,63.8,65.4,d
+41,14,other,private,post graduate,6,92.2,yes,15-30 min,yes,textbook,72.8,72.5,100,88.7,b
+42,18,male,private,no formal,5.2,54,yes,30-60 min,yes,notes,42.8,58.2,60.1,53.9,e
+43,18,female,public,phd,1.1,53.3,yes,15-30 min,no,group study,31.4,36.4,29,23.7,f
+44,16,female,private,phd,2.3,91.1,yes,30-60 min,no,mixed,76.4,56.2,56.4,63.6,d
+45,14,male,private,no formal,1.2,59.1,yes,<15 min,no,group study,37.5,35,54,42.3,e
+46,19,female,private,graduate,7.8,72.4,yes,30-60 min,no,mixed,77.3,94.5,88,83.5,c
+47,16,other,public,graduate,1.5,96.8,yes,>60 min,no,coaching,42.4,29.9,53.9,48.7,e
+48,19,male,private,high school,7.8,60.4,yes,>60 min,yes,online videos,85.1,100,100,96.3,a
+49,18,male,private,post graduate,1.3,89,yes,15-30 min,yes,coaching,31.5,26.9,32.6,37.5,f
+50,18,male,private,post graduate,7,79.2,no,30-60 min,no,coaching,86.6,91.1,100,95.9,a
+51,18,male,public,phd,4.8,70.3,yes,>60 min,yes,textbook,66.9,66.7,82.8,76.2,c
+52,15,male,private,graduate,6.7,73,yes,15-30 min,no,notes,87.1,78.6,99.8,90.4,b
+53,16,female,public,post graduate,5.3,70.5,yes,15-30 min,yes,notes,77.9,80.5,79.9,77,c
+54,16,other,public,post graduate,6.3,91.4,no,>60 min,yes,coaching,95.8,93.3,85.2,88.4,b
+55,16,other,private,post graduate,6,90.7,yes,>60 min,yes,online videos,91.9,85.6,100,92.5,b
+56,14,other,public,graduate,2.5,68.7,yes,>60 min,no,online videos,39.3,25.2,39.2,39.5,f
+57,17,other,public,post graduate,7.5,84.9,no,>60 min,yes,textbook,83.4,81.5,79.5,86.2,b
+58,14,female,private,no formal,5.3,76.6,yes,15-30 min,no,online videos,67.8,81.5,67.3,76.9,c
+59,18,other,public,graduate,2,87.4,yes,15-30 min,no,online videos,39.8,40.9,59.9,41.1,e
+60,18,male,private,high school,2.8,52.5,yes,>60 min,yes,notes,51.3,48.7,53.4,46.2,e
+61,19,other,public,diploma,4.5,66.8,yes,15-30 min,no,mixed,69.7,61.7,53,65.1,d
+62,18,male,private,post graduate,7.1,66.8,yes,>60 min,no,online videos,78.9,63.1,83.9,85.8,b
+63,16,other,private,no formal,6.5,79.8,yes,30-60 min,yes,coaching,76.1,61.2,76.7,77.4,c
+64,19,male,public,post graduate,2.8,60.4,yes,30-60 min,yes,group study,62.7,65.5,47.6,54.9,e
+65,16,male,private,high school,5.7,76.6,yes,30-60 min,no,group study,84.1,83.3,88.2,80.9,c
+66,15,female,public,post graduate,0.5,99,yes,>60 min,no,notes,32.1,28.5,38,39.2,f
+67,19,other,private,post graduate,3,52.2,yes,<15 min,yes,notes,33.8,45.9,47.3,46.9,e
+68,16,male,public,no formal,6.8,75.2,no,<15 min,yes,online videos,57.3,100,71.8,82.4,c
+69,14,male,private,high school,1.6,56.9,yes,15-30 min,yes,group study,54,34.8,35.3,40.8,e
+70,16,female,private,post graduate,3.2,79.1,yes,15-30 min,no,notes,80.1,57.2,47.2,57.1,d
+71,18,other,public,diploma,0.5,62,no,15-30 min,no,group study,32,30.9,51.4,24.6,f
+72,15,other,public,diploma,0.7,95.1,yes,<15 min,yes,group study,41.4,43.6,23.8,50,e
+73,16,female,private,no formal,1.6,65.9,yes,30-60 min,yes,coaching,33.9,62.8,30.7,37.1,f
+74,14,female,private,post graduate,1.3,97.9,yes,<15 min,yes,group study,53.1,58,59.5,59.5,d
+75,18,female,private,no formal,4.2,50.2,no,30-60 min,yes,group study,48.3,63.2,46.5,51.5,e
+76,16,other,public,high school,7.3,91.6,yes,>60 min,yes,online videos,99.6,100,99.1,96.4,a
+77,15,male,private,diploma,1.1,63.1,no,>60 min,yes,group study,36.6,40,23.7,32,f
+78,15,male,public,post graduate,7,60.1,yes,<15 min,yes,group study,71.2,87.5,84,80.7,c
+79,17,male,private,diploma,5.5,94.2,yes,<15 min,yes,group study,94.7,75.8,100,91.5,b
+80,18,male,private,phd,1.8,65.2,no,15-30 min,no,mixed,5.9,19,12.8,32.7,f
+81,19,female,private,graduate,2.7,79.2,yes,30-60 min,yes,textbook,74,75.2,54.3,59.6,d
+82,16,other,public,high school,2,86.8,yes,15-30 min,no,mixed,44.8,48.9,54,58.5,d
+83,14,female,public,high school,6.4,71,yes,<15 min,no,mixed,83.6,100,98.5,83,c
+84,18,female,private,post graduate,5.9,55.1,no,<15 min,no,group study,74.1,55.2,72,69.1,d
+85,17,male,public,diploma,2.8,96.1,yes,<15 min,yes,notes,63.8,57.9,53,61.7,d
+86,18,female,public,graduate,0.9,82.4,yes,>60 min,no,online videos,49,45.7,45,43.9,e
+87,14,male,public,diploma,1.8,94.6,yes,>60 min,yes,online videos,74.3,57.7,46.7,61.3,d
+88,15,other,private,high school,5.2,88.4,no,>60 min,yes,textbook,67.7,81.7,89.5,73.9,c
+89,18,female,public,graduate,1.2,88.7,no,30-60 min,yes,notes,55.6,73.1,57.4,53.4,e
+90,18,female,private,high school,4.5,79.5,yes,<15 min,no,group study,57,56.1,62.6,63.4,d
+91,16,other,public,phd,5.1,50.3,yes,30-60 min,no,group study,71.3,50.2,63.1,59.9,d
+92,18,male,private,post graduate,5.7,94.1,yes,30-60 min,yes,textbook,80.5,86.2,79.4,82,c
+93,19,female,public,post graduate,1.4,91.5,yes,30-60 min,yes,group study,40,46.1,31.2,41.3,e
+94,16,female,public,high school,3.9,86.4,no,30-60 min,no,online videos,57.3,49.7,54.7,59.5,d
+95,19,male,private,no formal,4,93.9,yes,<15 min,no,group study,80.2,93.9,87.6,76.8,c
+96,15,male,public,no formal,6.8,59.2,yes,30-60 min,no,notes,86.9,79.9,88.2,87.9,b
+97,15,male,public,phd,4,64.1,yes,>60 min,yes,group study,65.6,73.9,70.1,66.6,d
+98,18,male,private,phd,3.6,57.9,yes,15-30 min,no,group study,42.3,46.6,57.5,46.2,e
+99,17,other,private,post graduate,1.4,82.3,yes,15-30 min,no,coaching,37.2,50.4,48.3,39.9,f
+100,14,male,private,graduate,5.7,71.9,no,<15 min,no,group study,67.8,57,61.6,66.9,d
+101,18,male,public,high school,5.1,55.1,yes,30-60 min,yes,textbook,76.8,73,74.8,66.8,d
+102,15,other,private,post graduate,5.9,78.8,yes,<15 min,yes,coaching,72.3,48.8,70.5,68.8,d
+103,18,female,public,graduate,5.4,66.9,yes,30-60 min,yes,mixed,68.7,72.3,64.8,73.5,c
+104,14,other,private,graduate,7.1,74.5,yes,30-60 min,no,online videos,77.9,75.6,89,81.9,c
+105,18,other,private,no formal,7.1,63.1,yes,15-30 min,yes,notes,100,90.8,96,86.4,b
+106,18,male,private,graduate,2.8,58.1,yes,15-30 min,no,group study,24,58,23.3,39.3,f
+107,18,female,private,post graduate,1.9,72.5,yes,<15 min,yes,textbook,39.3,44.8,42.7,52.9,e
+108,17,male,private,post graduate,7.4,61.3,no,30-60 min,yes,textbook,68.3,78.7,66.9,75.9,c
+109,16,female,public,no formal,5.8,70.3,yes,<15 min,no,mixed,71.6,60.4,85.2,65.2,d
+110,18,other,private,no formal,7.8,69.1,no,30-60 min,no,online videos,73.4,96.5,74.7,82.4,c
+111,15,other,private,phd,4.2,97,yes,30-60 min,yes,online videos,58,71.2,49,67.3,d
+112,18,other,private,high school,7.7,59.3,yes,30-60 min,yes,online videos,98.5,85.1,76.7,88.9,b
+113,17,male,public,diploma,1.4,64.3,yes,>60 min,no,group study,21.1,43.7,43.6,35.7,f
+114,16,male,private,graduate,4.9,89.6,yes,30-60 min,yes,group study,81.1,63.6,67.7,74.2,c
+115,17,female,public,diploma,4.2,64.8,yes,15-30 min,yes,mixed,73.7,64,52.8,61.3,d
+116,17,male,private,phd,0.5,74,yes,<15 min,no,textbook,44.4,35.1,20.1,37.1,f
+117,14,female,private,phd,1.9,88.1,yes,15-30 min,no,mixed,57,61.8,63.6,54.8,e
+118,14,other,private,diploma,1.7,50.2,no,30-60 min,yes,coaching,39.2,12.8,40.9,32.1,f
+119,15,male,private,high school,1,97.8,yes,15-30 min,yes,mixed,65.9,32,41.9,39.6,f
+120,14,other,public,phd,7.6,73.1,yes,15-30 min,no,online videos,82.3,79.1,72.6,81.9,c
+121,16,other,public,post graduate,7.7,88,yes,30-60 min,no,group study,92.4,76.4,86.1,92,b
+122,18,other,public,post graduate,7.2,96,yes,<15 min,no,notes,100,71.6,83.4,89.4,b
+123,17,male,private,diploma,7.9,93.8,yes,>60 min,yes,coaching,92.7,100,95.8,98.4,a
+124,16,male,private,diploma,6.7,61,yes,>60 min,no,group study,85.3,86.2,80,87.8,b
+125,19,male,private,high school,7.5,77.8,no,<15 min,no,mixed,100,100,76.9,87.1,b
+126,17,male,private,diploma,2,70.5,no,>60 min,no,group study,62.7,52.9,52.8,53.1,e
+127,14,male,private,graduate,2.4,76.6,no,30-60 min,no,notes,40.3,64.6,67.1,52.7,e
+128,18,female,public,no formal,7,89,yes,>60 min,no,mixed,83.8,71.4,71.2,82.6,c
+129,17,male,private,graduate,4.1,67.7,yes,>60 min,no,online videos,72.3,71.7,66.9,65,d
+130,17,male,private,graduate,5.9,73.9,yes,15-30 min,yes,textbook,80.4,66.8,92.5,81.1,c
+131,17,other,public,phd,4.7,80.4,yes,>60 min,yes,online videos,72.7,78.1,75.3,73.8,c
+132,17,other,private,no formal,2.8,63.5,yes,>60 min,no,mixed,27.5,63.3,41.9,40.6,e
+133,14,other,private,high school,2.6,80.3,yes,30-60 min,yes,group study,49.8,39.9,35.2,43.3,e
+134,17,male,private,diploma,6.1,57.4,yes,15-30 min,no,group study,99.2,81.5,86.3,78.3,c
+135,18,female,private,phd,4.5,81.1,yes,<15 min,no,coaching,77.4,70.7,84,73.4,c
+136,15,female,private,high school,3.2,57.2,yes,15-30 min,yes,mixed,59.8,53.9,63.5,50.1,e
+137,17,male,public,phd,5.1,88.8,no,15-30 min,yes,textbook,72.8,80.9,87.6,81.6,c
+138,14,other,public,phd,3.6,59.7,no,15-30 min,no,coaching,43.6,78.1,50.4,54.2,e
+139,16,female,private,no formal,4.1,82.3,yes,>60 min,no,textbook,59.7,71.3,67,67.6,d
+140,16,other,public,diploma,5.6,79.1,yes,30-60 min,yes,mixed,88.7,76.9,76.4,85.7,b
+141,19,male,private,high school,3.9,71.3,yes,15-30 min,no,mixed,53.8,46.4,54.2,52.6,e
+142,15,female,public,diploma,7.6,82.3,yes,<15 min,yes,group study,73.5,100,92.8,89.7,b
+143,15,male,private,phd,4.1,92.3,yes,30-60 min,yes,online videos,58.5,59,66.5,62,d
+144,16,other,private,diploma,7.7,56,yes,<15 min,no,mixed,79.1,91.3,92,78.7,c
+145,19,female,private,graduate,6.9,83.8,no,30-60 min,no,group study,99.1,100,96.2,95.6,a
+146,19,male,public,no formal,7.2,70.5,yes,15-30 min,yes,textbook,90.9,86.7,82.9,90.2,b
+147,14,male,private,graduate,6.2,83.7,no,30-60 min,yes,mixed,93.3,78.5,82.8,84.5,c
+148,15,female,private,diploma,5,93.8,yes,15-30 min,yes,coaching,58.1,77.1,74.9,71.7,c
+149,18,male,public,phd,4.5,82.6,yes,<15 min,yes,textbook,87,58,76.3,68.7,d
+150,14,male,private,post graduate,4.6,58,yes,15-30 min,no,group study,41,73.1,57.3,61.2,d
+151,19,other,public,high school,2,70.8,yes,30-60 min,no,group study,47.8,30.8,32.8,36.9,f
+152,15,other,private,graduate,2.1,77.5,yes,30-60 min,no,group study,52.8,37.9,45.6,39.3,f
+153,19,female,public,diploma,0.8,56.3,yes,>60 min,no,notes,12.8,26.2,14.7,22.6,f
+154,15,other,private,diploma,6.1,82.2,yes,<15 min,yes,mixed,100,91.6,92.1,87.5,b
+155,16,female,private,diploma,1.4,85.7,yes,30-60 min,yes,mixed,45.4,37.1,55.7,46.8,e
+156,17,male,private,post graduate,4.9,88.1,yes,30-60 min,no,coaching,75.8,57.7,77.6,77.5,c
+157,14,other,private,high school,1.5,56,yes,<15 min,no,coaching,35.6,20.4,33.1,26.5,f
+158,17,male,private,no formal,1,85.3,no,15-30 min,no,mixed,39.8,41.5,27.9,38.4,f
+159,17,other,private,high school,4.5,68.3,yes,<15 min,no,coaching,53.4,67.8,55.6,58.1,d
+160,18,female,public,post graduate,7,60.6,yes,<15 min,yes,group study,82.7,71.7,77,86,b
+161,19,male,private,high school,3.2,76.2,no,15-30 min,no,group study,51,48.2,54.2,48.9,e
+162,17,male,public,no formal,7.4,78.6,yes,<15 min,no,online videos,80.1,69.3,61.2,86,b
+163,16,other,private,diploma,0.6,72.8,yes,30-60 min,yes,group study,43.3,13.9,45.8,37.8,f
+164,16,other,private,phd,4,92,yes,<15 min,yes,textbook,67,93.9,65.3,71.9,c
+165,16,female,private,phd,1.6,57.8,no,<15 min,yes,coaching,39,38.4,35.6,43.4,e
+166,18,male,public,phd,2.9,70.4,yes,>60 min,no,group study,54.1,59.9,70.7,58.3,d
+167,15,other,public,post graduate,0.7,63.4,yes,30-60 min,no,group study,18,45.5,36.2,37.8,f
+168,15,other,private,post graduate,0.8,52.4,yes,15-30 min,no,notes,29.6,50.3,27.8,32.4,f
+169,16,female,private,post graduate,5.8,67,yes,>60 min,yes,textbook,70.4,64,69.2,66.2,d
+170,14,female,public,no formal,5.4,85.9,yes,>60 min,no,group study,95.2,71.2,80.1,78.4,c
+171,14,other,public,diploma,2.1,76.2,no,<15 min,no,mixed,54.8,33.5,38.2,39.6,f
+172,14,female,private,graduate,7.3,70.9,yes,15-30 min,yes,group study,86.9,84.2,97.3,86.7,b
+173,18,male,private,diploma,5.7,73.7,yes,30-60 min,no,coaching,80.7,80.6,58.2,80.8,c
+174,18,male,public,post graduate,3,65.6,yes,<15 min,yes,online videos,43.7,50.5,39.8,50.5,e
+175,18,female,public,phd,3.6,56.1,yes,30-60 min,no,mixed,55.8,42,37.8,48.2,e
+176,16,other,private,graduate,2.7,79.5,yes,<15 min,no,notes,50.8,52.3,79.3,63.4,d
+177,18,other,public,no formal,6.7,90.8,yes,>60 min,no,group study,77.3,100,99.8,86.1,b
+178,14,female,public,diploma,4.2,89.5,yes,15-30 min,yes,online videos,48,62.7,64.5,63.1,d
+179,19,male,public,high school,1.5,61.7,yes,30-60 min,no,textbook,35.8,28,36.3,36.9,f
+180,17,female,private,diploma,2,71.7,yes,>60 min,yes,textbook,45.7,24.3,40.3,43.7,e
+181,19,male,public,high school,2.7,77.6,yes,30-60 min,yes,coaching,38,51.5,59.8,49.5,e
+182,14,female,public,no formal,3.5,90.1,yes,30-60 min,yes,online videos,49.9,56.9,47.5,59.5,d
+183,16,female,public,high school,4.9,59.8,yes,>60 min,no,coaching,78.7,64.1,81.9,73,c
+184,18,other,private,diploma,7.7,56.6,yes,30-60 min,no,textbook,79.1,89.3,98,81.5,c
+185,16,other,private,no formal,2.5,96.6,yes,15-30 min,no,mixed,50.3,47.4,61.8,59.7,d
+186,16,other,public,no formal,3,57.3,no,15-30 min,yes,notes,32.5,39.6,41.6,38.6,f
+187,14,male,private,high school,0.7,99.5,yes,30-60 min,no,coaching,51.7,49.6,46.3,44.7,e
+188,16,other,private,graduate,3.3,79.9,yes,15-30 min,yes,mixed,64.3,47.5,54.3,58.4,d
+189,15,male,private,graduate,5.6,74.9,yes,<15 min,no,notes,70.4,72.9,55.4,71.8,c
+190,15,female,private,diploma,7.7,59.4,yes,30-60 min,no,group study,65.5,73.4,77.6,76.1,c
+191,18,other,public,graduate,6.1,93,yes,30-60 min,no,group study,73.9,92.3,80.2,86.6,b
+192,17,other,private,high school,1.4,58.6,yes,30-60 min,no,online videos,7.6,32.8,16.7,25.5,f
+193,17,female,private,post graduate,7.2,70.1,yes,15-30 min,yes,textbook,71.1,55.2,78,80.1,c
+194,16,male,private,no formal,6.8,52.4,yes,<15 min,no,mixed,90.4,88.5,91.3,84.1,c
+195,19,female,private,no formal,1.9,51.1,yes,<15 min,yes,online videos,24.7,36.9,36.8,32.5,f
+196,14,other,private,phd,7.5,86.5,yes,30-60 min,no,coaching,82.8,100,96.6,93,b
+197,16,female,private,diploma,5.9,60.4,yes,<15 min,yes,mixed,62.6,78.9,78.5,71.9,c
+198,14,female,private,graduate,6.4,80,yes,30-60 min,yes,coaching,86.3,92.6,94.7,90.7,b
+199,16,female,public,diploma,3.9,86.2,yes,<15 min,yes,mixed,71.3,56.8,69.7,60.9,d

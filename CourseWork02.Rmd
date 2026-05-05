@@ -1,0 +1,69 @@
+---
+title: "CW2"
+author: "Isurika Bandara"
+date: "2026-05-04"
+output: html_document
+---
+
+```{r}
+#Loading required package
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r}
+#Loading the csv file.
+data <- read.csv(file.choose(), header = TRUE)
+```
+```{r}
+#Convert categorical variables to factors
+data$gender <- as.factor(data$gender)
+data$internet_access <- as.factor(data$internet_access)
+```
+
+```{r}
+#removing missing values
+data <- na.omit(data)
+```
+**objective 1**
+
+**One-Sample T-Test**
+
+To determine whether the average overall score of students is significantly different from the hypothesized value of 75.
+```{r}
+#Perform one-way ANOVA
+t_test_one <- t.test(data$overall_score, mu = 75)
+t_test_one
+
+```
+**Conclusion** **:** 
+The average overall score is significantly different from 75 . The mean is significantly lower than 75.
+
+# **objective 2**
+
+**Independent T-Test**
+To determine whether the overall score differs significantly between students with internet access 
+```{r}
+#one-sample t - test
+t_test_two <- t.test(overall_score ~ internet_access, data = data)
+t_test_two
+```
+**conclusion:**
+The two-sample t-test shows no significant difference in overall scores between students with and without internet access. We fail to reject the null hypothesis.
+# **objective 3**
+
+**One-Way ANOVA**
+
+To determine whether the overall score differs significantly among students with different stress levels.
+```{r}
+# Create stress level proxy using attendance percentage
+data$stress_level <- cut(
+  data$attendance_percentage,
+  breaks = c(0, 60, 80, 100),
+  labels = c("High Stress", "Medium Stress", "Low Stress")
+)
+anova_test <- aov(overall_score ~ stress_level, data = data)
+summary(anova_test)
+```
+**conclusion:**  Students with varying attendance-based stress levels differ significantly in their overall academic performance . At least one stress group performs differently from others.
